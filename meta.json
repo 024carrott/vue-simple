@@ -1,0 +1,30 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "프로젝트 이름"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "프로젝트 설명",
+      "default": "Vue.js, Pug + Sass 프로젝트"
+    },
+    "author": {
+      "type": "string",
+      "label": "제작자"
+    },
+    "pug": {
+       "type": "confirm",
+       "message": "Pug 템플릿 엔진을 사용할까요?",
+       "default": true
+    },
+    "sass": {
+       "type": "confirm",
+       "message": "Sass 프리프로세서를 사용할까요?",
+       "default": true
+    }
+  },
+  "completeMessage": "{{#inPlace}}프로젝트 시작하기:\n\n  npm install\n  npm run dev.{{else}}프로젝트 시작하기:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev.{{/inPlace}}"
+}
