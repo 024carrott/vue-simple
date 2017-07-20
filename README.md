@@ -1,4 +1,4 @@
-# webpack-pug-sass
+# Vue CLI
 
 Vue.js v2.0 앱 프로토타이핑 제작을 위한 Webpack & `vue-loader` 프로젝트 템플릿.
 
@@ -9,9 +9,14 @@ Vue.js v2.0 앱 프로토타이핑 제작을 위한 Webpack & `vue-loader` 프�
 ``` bash
 # 글로벌 vue-cli 개발 모듈 설치
 $ npm install -g vue-cli
+
 # vue-cli 프로젝트 템플릿 초기화
-$ vue init yamoo9/webpack-pug-sass my-project
+$ vue init yamoo9/vue-cli my-project
+
+# 디렉토리로 이동
 $ cd my-project
+
+# 모듈 설치 및 실행
 $ npm install
 $ npm run dev
 ```
