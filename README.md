@@ -11,7 +11,7 @@ Vue.js v2.0 앱 프로토타이핑 제작을 위한 Webpack & `vue-loader` 프�
 $ npm install -g vue-cli
 
 # vue-cli 프로젝트 템플릿 초기화
-$ vue init yamoo9/vue-cli my-project
+$ vue init yamoo9/vue-simple my-project
 
 # 디렉토리로 이동
 $ cd my-project
