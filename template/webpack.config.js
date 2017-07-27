@@ -40,7 +40,8 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.vue'],
+    // import / require() 시, 확장자 생략 가능
+    extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       // 외부 Sass 파일을 로드하고자 할 경우, 아래와 같이 경로를 입력한 후,
